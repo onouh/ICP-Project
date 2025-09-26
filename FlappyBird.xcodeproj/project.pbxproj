@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ED5E9E512D1FEE3100406ECD /* libncurses.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = ED5E9E502D1FEE3100406ECD /* libncurses.tbd */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		ED5E9E432D1FE12600406ECD /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -20,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		ED5E9E452D1FE12600406ECD /* FlappyBird */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FlappyBird; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5E9E502D1FEE3100406ECD /* libncurses.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libncurses.tbd; path = usr/lib/libncurses.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -35,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5E9E512D1FEE3100406ECD /* libncurses.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				ED5E9E472D1FE12600406ECD /* FlappyBird */,
+				ED5E9E4F2D1FEE3000406ECD /* Frameworks */,
 				ED5E9E462D1FE12600406ECD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +62,14 @@
 				ED5E9E452D1FE12600406ECD /* FlappyBird */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		ED5E9E4F2D1FEE3000406ECD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED5E9E502D1FEE3100406ECD /* libncurses.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
