@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetManager.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Land.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pipe.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DEFINITIONS.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetManager.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Land.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pipe.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="State.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.hpp">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Highscore.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="VisualRes\Splash Background.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\bird-01.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\bird-02.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\bird-03.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\bird-04.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\Bronze-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\Game-Over-Body.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\Game-Over-Title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\Gold-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\InvisibleScoringPipe.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\land.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\PipeDown.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\PipeUp.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\Platinum-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\PlayButton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\Silver-Medal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\sky.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="VisualRes\title.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="VisualRes\flappy-font.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="VisualRes\Hit.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="VisualRes\Point.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="VisualRes\Wing.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
